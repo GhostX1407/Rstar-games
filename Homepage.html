@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="icon" href="Rockstar.png" type="image/png">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+     
+        
+        .SUBBTN{
+            width: 150px;
+            padding: 15px;
+            background-color: gray;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .navbar {
+            background-color: black;
+            overflow: hidden;
+            display: flex;
+        }
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            padding: 30px 20px;
+            display: inline-block;
+            text-align: center;
+        }
+        .navbar a:hover{
+            text-decoration-line: underline;
+            transition: 1s ease-in-out;
+            transition-delay: 1s;
+
+        }
+        .navbar .logo{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .navbar .menu{
+            margin-left: auto;
+            display: flex;
+        }
+        body{
+            background-color: black;
+            background-image: url(Back\ 2.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            
+            
+           
+        }
+        .carousel {
+            width: 80%;
+            max-width: 800px;
+            height: 500px;
+            overflow: hidden;
+            border-radius: 10px;
+            position: relative;
+            
+        }
+
+        .carousel-images {
+            display: flex;
+            width: 650%; /* 3 images, each takes up 100% */
+            animation: slide 12s infinite;
+        }
+
+
+        .carousel-slide {
+            width: 100%;
+            height: 100%;
+        }
+
+        .carousel-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        @keyframes slide {
+        0% {
+            transform: translateX(0); /* Start at first image */
+        }
+        33.33% {
+            transform: translateX(-33%); /* Show the second image */
+        }
+        66.66% {
+            transform: translateX(-60%); /* Show the third image */
+        }
+        100% {
+            transform: translateX(-100%); /* Loop back to the first image */
+        }
+        120% {
+            transform: translateX(-120%); /* Loop back to the first image */
+        }
+        150% {
+            transform: translateX(-150%); /* Loop back to the first image */
+        }
+        200% {
+            transform: translateX(-200%);
+        }
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="Index.html" class="logo"><img src="Rockstar.png" width="55px" height="40px" style="border-radius: 8px;"></a>
+        <div class="menu">
+            <a href="Homepage.html" style="font-size: x-large;">Homepage</a>
+            <a href="Games.html" style="font-size: x-large;">Games</a>
+            <a href="Community Guidelines.html" style="font-size: x-large;">Community Guidelines</a>
+            <a href="Contact Us.html" style="font-size: x-large;">Contact Us</a>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <h1 style="text-align: center; margin-top: 150px; color: white;font-size: 100px;font-family: 'Times New Roman', Times, serif;color: cornsilk;" >Rockstar Games</h1>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <P style="text-align: center;margin-top: 100px; color: white;font-size: 65px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">About Us</P>
+    <p style="text-align: center;margin-top: 100px; color: white;font-size: 22px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Rockstar Games, Inc. is an American video game publisher based in New York City. The company was established in December 1998 as a subsidiary of Take-Two Interactive, using the assets Take-Two had previously acquired from BMG Interactive. Founding members of the company were Terry Donovan, Gary Foreman, Dan and Sam Houser, and Jamie King, who worked for Take-Two at the time, and of which the Houser brothers were previously executives at BMG Interactive. Sam Houser heads the studio as president.Since 1999, several companies acquired by or established under Take-Two have become part of Rockstar Games, such as Rockstar Canada (later renamed Rockstar Toronto) becoming the first one in 1999, and Rockstar Dundee the most recent in 2020. All companies organized under Rockstar Games bear the "Rockstar" name and logo.<br><br> In this context, Rockstar Games is sometimes also referred to as Rockstar New York, Rockstar NY or Rockstar NYC. Rockstar Games also sports a motion capture studio in Bethpage, New York.
+
+        Rockstar Games predominantly publishes games in the action-adventure genre, while racing games also saw success for the company. One of such action-adventure game franchises is Grand Theft Auto, which Rockstar Games took over from BMG Interactive, which published the series' original 1997 entry. The most recent main game in the series, Grand Theft Auto V, has sold over 200 million copies since its release in September 2013, making it the second-best-selling video game of all time.Other popular franchises published by Rockstar Games are Red Dead, Midnight Club, Max Payne, and Manhunt.</p>
+     
+    <br><br><br><br><br><br><br><br>
+        <center><div class="carousel" >
+            <div class="carousel-images">
+                <div class="carousel-slide" id="img1">
+                    <img src="Image 1 new 2.jpeg" alt="Image 1">
+                </div>
+                <div class="carousel-slide" id="img2">
+                    <img src="Image 2 new.webp" alt="Image 2">
+                </div>
+            
+                <div class="carousel-slide" id="img3">
+                    <img src="Image 4 new.jpeg" alt="Image 3">
+                </div>
+                <div class="carousel-slide" id="img3">
+                    <img src="Image5.jpeg" alt="Image 3">
+                </div>
+                <div class="carousel-slide" id="img3">
+                    <img src="image 1 new new.webp" alt="Image 3">
+                </div>
+                <div class="carousel-slide" id="img3">
+                    <img src="Image7.jpeg" alt="Image 3">
+                </div>
+            </div>
+ 
+    </div></center>
+    <br><br><br><br><br><br>
+    <div>
+        <img style="margin-left: 47%;" src="Rockstar new.png" height="50px" width="100px">
+        <p style="text-align: center;font-size: 34px;color: white;font-family: 'Times New Roman', Times, serif;">Subscribe to the Rockstar Games Email List</p>
+        <br><br>
+        <p style="text-align: center;font-size: 24px;color: white;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Sign up for our email newsletter to get info on game announcements and updates,<br> details on special events and offers, and more from Rockstar Games and our<br> affiliates.</p>
+        <br>
+        <center><button type="button" class="SUBBTN">Subscribe Now</button></center>
+    </div>
+    <br><br><br><br><br><br><br>
+    <a style="margin-left: 95%;" href="#"><img src="ARROWUP.webp" height="40px" width="40px"></a>
+    <br><br>
+    <p style="color: darkgrey;text-align: center;">&copy; 2025 Rockstar Games. All Rights Reserved.</p>
+    <br><br><br><br>
+    <p><marquee style="color: white;">Made by Jaivin Vachhani</marquee></p>
+    <p><marquee style="color: white;">Email:- pateljaivin07@gmail.com</marquee></p>
+        
+        
+</body>
+</html>
